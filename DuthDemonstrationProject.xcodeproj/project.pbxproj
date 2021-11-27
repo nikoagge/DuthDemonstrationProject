@@ -15,6 +15,15 @@
 		1744306F275208B3001D350E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1744306D275208B3001D350E /* LaunchScreen.storyboard */; };
 		1744307B2752185F001D350E /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744307A2752185F001D350E /* NetworkClient.swift */; };
 		174430802752215D001D350E /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744307F2752215D001D350E /* Path.swift */; };
+		174430832752250F001D350E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174430822752250F001D350E /* Post.swift */; };
+		1744308527522541001D350E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744308427522541001D350E /* Comment.swift */; };
+		174430872752258E001D350E /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174430862752258E001D350E /* Album.swift */; };
+		17443089275225DA001D350E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17443088275225DA001D350E /* Photo.swift */; };
+		1744308B2752262D001D350E /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744308A2752262D001D350E /* ToDo.swift */; };
+		1744308D275226AF001D350E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744308C275226AF001D350E /* User.swift */; };
+		1744308F27522739001D350E /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744308E27522739001D350E /* Address.swift */; };
+		174430912752277B001D350E /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174430902752277B001D350E /* Geo.swift */; };
+		17443093275228E7001D350E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17443092275228E7001D350E /* Company.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		17443070275208B3001D350E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1744307A2752185F001D350E /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		1744307F2752215D001D350E /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		174430822752250F001D350E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1744308427522541001D350E /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		174430862752258E001D350E /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		17443088275225DA001D350E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		1744308A2752262D001D350E /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		1744308C275226AF001D350E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1744308E27522739001D350E /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		174430902752277B001D350E /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		17443092275228E7001D350E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +135,15 @@
 		1744308127522439001D350E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				174430822752250F001D350E /* Post.swift */,
+				17443088275225DA001D350E /* Photo.swift */,
+				1744308427522541001D350E /* Comment.swift */,
+				174430862752258E001D350E /* Album.swift */,
+				1744308A2752262D001D350E /* ToDo.swift */,
+				1744308C275226AF001D350E /* User.swift */,
+				1744308E27522739001D350E /* Address.swift */,
+				174430902752277B001D350E /* Geo.swift */,
+				17443092275228E7001D350E /* Company.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,10 +220,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				17443067275208B2001D350E /* HomeViewController.swift in Sources */,
+				1744308B2752262D001D350E /* ToDo.swift in Sources */,
 				17443063275208B2001D350E /* AppDelegate.swift in Sources */,
+				1744308527522541001D350E /* Comment.swift in Sources */,
+				174430912752277B001D350E /* Geo.swift in Sources */,
+				17443089275225DA001D350E /* Photo.swift in Sources */,
+				174430872752258E001D350E /* Album.swift in Sources */,
+				1744308F27522739001D350E /* Address.swift in Sources */,
 				17443065275208B2001D350E /* SceneDelegate.swift in Sources */,
+				174430832752250F001D350E /* Post.swift in Sources */,
 				174430802752215D001D350E /* Path.swift in Sources */,
+				17443093275228E7001D350E /* Company.swift in Sources */,
 				1744307B2752185F001D350E /* NetworkClient.swift in Sources */,
+				1744308D275226AF001D350E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
