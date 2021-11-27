@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		17443063275208B2001D350E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17443062275208B2001D350E /* AppDelegate.swift */; };
 		17443065275208B2001D350E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17443064275208B2001D350E /* SceneDelegate.swift */; };
-		17443067275208B2001D350E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17443066275208B2001D350E /* ViewController.swift */; };
+		17443067275208B2001D350E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17443066275208B2001D350E /* HomeViewController.swift */; };
 		1744306A275208B2001D350E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17443068275208B2001D350E /* Main.storyboard */; };
 		1744306C275208B3001D350E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1744306B275208B3001D350E /* Assets.xcassets */; };
 		1744306F275208B3001D350E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1744306D275208B3001D350E /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		1744305F275208B2001D350E /* DuthDemonstrationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuthDemonstrationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17443062275208B2001D350E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17443064275208B2001D350E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17443066275208B2001D350E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17443066275208B2001D350E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		17443069275208B2001D350E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1744306B275208B3001D350E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1744306E275208B3001D350E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,39 @@
 		17443061275208B2001D350E /* DuthDemonstrationProject */ = {
 			isa = PBXGroup;
 			children = (
+				17443078275217D9001D350E /* Resources */,
+				17443077275217C6001D350E /* Storyboards */,
+				1744307627521737001D350E /* ViewControllers */,
 				17443062275208B2001D350E /* AppDelegate.swift */,
 				17443064275208B2001D350E /* SceneDelegate.swift */,
-				17443066275208B2001D350E /* ViewController.swift */,
-				17443068275208B2001D350E /* Main.storyboard */,
-				1744306B275208B3001D350E /* Assets.xcassets */,
-				1744306D275208B3001D350E /* LaunchScreen.storyboard */,
 				17443070275208B3001D350E /* Info.plist */,
 			);
 			path = DuthDemonstrationProject;
+			sourceTree = "<group>";
+		};
+		1744307627521737001D350E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				17443066275208B2001D350E /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		17443077275217C6001D350E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				17443068275208B2001D350E /* Main.storyboard */,
+				1744306D275208B3001D350E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		17443078275217D9001D350E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1744306B275208B3001D350E /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17443067275208B2001D350E /* ViewController.swift in Sources */,
+				17443067275208B2001D350E /* HomeViewController.swift in Sources */,
 				17443063275208B2001D350E /* AppDelegate.swift in Sources */,
 				17443065275208B2001D350E /* SceneDelegate.swift in Sources */,
 			);
