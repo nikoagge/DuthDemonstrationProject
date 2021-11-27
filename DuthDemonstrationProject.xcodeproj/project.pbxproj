@@ -13,6 +13,8 @@
 		1744306A275208B2001D350E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17443068275208B2001D350E /* Main.storyboard */; };
 		1744306C275208B3001D350E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1744306B275208B3001D350E /* Assets.xcassets */; };
 		1744306F275208B3001D350E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1744306D275208B3001D350E /* LaunchScreen.storyboard */; };
+		1744307B2752185F001D350E /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744307A2752185F001D350E /* NetworkClient.swift */; };
+		174430802752215D001D350E /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744307F2752215D001D350E /* Path.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1744306B275208B3001D350E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1744306E275208B3001D350E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17443070275208B3001D350E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1744307A2752185F001D350E /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		1744307F2752215D001D350E /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,9 @@
 		17443061275208B2001D350E /* DuthDemonstrationProject */ = {
 			isa = PBXGroup;
 			children = (
+				1744308127522439001D350E /* Models */,
+				1744307E27522150001D350E /* Enums */,
+				1744307927521841001D350E /* Networking */,
 				17443078275217D9001D350E /* Resources */,
 				17443077275217C6001D350E /* Storyboards */,
 				1744307627521737001D350E /* ViewControllers */,
@@ -89,6 +96,29 @@
 				1744306B275208B3001D350E /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		1744307927521841001D350E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1744307A2752185F001D350E /* NetworkClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1744307E27522150001D350E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				1744307F2752215D001D350E /* Path.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		1744308127522439001D350E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +195,8 @@
 				17443067275208B2001D350E /* HomeViewController.swift in Sources */,
 				17443063275208B2001D350E /* AppDelegate.swift in Sources */,
 				17443065275208B2001D350E /* SceneDelegate.swift in Sources */,
+				174430802752215D001D350E /* Path.swift in Sources */,
+				1744307B2752185F001D350E /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
