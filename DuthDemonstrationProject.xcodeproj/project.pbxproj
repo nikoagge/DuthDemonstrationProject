@@ -24,6 +24,7 @@
 		1744308F27522739001D350E /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744308E27522739001D350E /* Address.swift */; };
 		174430912752277B001D350E /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174430902752277B001D350E /* Geo.swift */; };
 		17443093275228E7001D350E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17443092275228E7001D350E /* Company.swift */; };
+		175B0C8A2753D6F400346905 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175B0C892753D6F400346905 /* NetworkingError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		1744308E27522739001D350E /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		174430902752277B001D350E /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
 		17443092275228E7001D350E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		175B0C892753D6F400346905 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				1744307F2752215D001D350E /* Path.swift */,
+				175B0C892753D6F400346905 /* NetworkingError.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				174430872752258E001D350E /* Album.swift in Sources */,
 				1744308F27522739001D350E /* Address.swift in Sources */,
 				17443065275208B2001D350E /* SceneDelegate.swift in Sources */,
+				175B0C8A2753D6F400346905 /* NetworkingError.swift in Sources */,
 				174430832752250F001D350E /* Post.swift in Sources */,
 				174430802752215D001D350E /* Path.swift in Sources */,
 				17443093275228E7001D350E /* Company.swift in Sources */,
